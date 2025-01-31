@@ -1,5 +1,4 @@
 greeting = "Hello "
-greeting = greeting + "World!"
-greeting = greeting.lower()
-print(greeting)
+greeting +=  "World!"
+print(greeting.lower())
 print("index_of_o = " + str(greeting.find('o')))
