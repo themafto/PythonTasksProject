@@ -1,4 +1,6 @@
-a = True; b = False; c = True
+a = True
+b = False
+c = True
 print(a and b)           # False   Result will be False, because both of them aren't true
 print(a or b)            # True    Result will be True, because A is True
 print(not b)             # True    Result will be True, because B is False
