@@ -1,8 +1,3 @@
 temperature = 17
-if temperature < 15:
-    print("Cold")
-else:
-    if temperature < 30:
-        print("Warm")
-    else:
-        print("Hot")
+result = "Cold" if temperature < 15 else ("Warm" if 15 <= temperature <= 30 else "Hot")
+print(result)
