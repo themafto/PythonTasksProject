@@ -1,5 +1,3 @@
 user_number = int(input("Enter a number: "))
-if user_number%2 == 0:
-    print("Even")
-else:
-    print("Odd")
+result = "Even" if user_number % 2 == 0 else "Odd"
+print(result)
