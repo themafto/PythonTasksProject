@@ -1,0 +1,7 @@
+Name: Artem
+Age: 20
+Favorite Color: purple
+
+Name: Artem
+Age: 20
+Favorite Color: Green
