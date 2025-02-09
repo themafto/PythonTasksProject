@@ -2,9 +2,10 @@ class Employee:
     def __init__(self, name, salary):
         self.name = name
         self.salary = salary
+    
     @classmethod
-    def from_string(cls, strr):
-        name, salary = strr.split(', ')
+    def from_string(cls, value):
+        name, salary = value.split(', ')
         return cls(name, float(salary))
 
     def __str__(self):
