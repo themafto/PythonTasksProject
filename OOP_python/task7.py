@@ -6,6 +6,8 @@ class Person:
     def __eq__(self, other):
         return (self.name == other.name and
                 self.age == other.age)
+               
+               
 person1 = Person('John', 25)
 person2 = Person('Andrey', 30)
 
