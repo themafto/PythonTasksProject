@@ -7,7 +7,8 @@ class FibonacciIterator:
         return self
 
     def __next__(self):
-        if self.n <= 0: raise StopIteration
+        if self.n <= 0:
+            raise StopIteration()
         result = self.a
         self.a, self.b = self.b, self.a + self.b
         self.n -= 1
