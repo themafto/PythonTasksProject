@@ -1,7 +1,9 @@
 def make_adder(add_value):
-    return adder(add_value)
-
-def adder(x):
-    return x + 1
+    def adder(num):
+        return num + add_value
+    return adder
+   
+incrementer = make_adder(1)
+result = incrementer(5)
 
 print(adder(5))
